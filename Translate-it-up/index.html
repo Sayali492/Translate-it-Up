@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Translate it up!</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+   
+    <div class="container">
+        <h1><i>Translate it up!</i></h1>
+        <div class="innercontainer">
+            <div class="text-input">
+                <textarea class="from-text" placeholder="Enter text"></textarea>
+                <textarea class="from-to" placeholder="Translation" readonly></textarea>
+            </div>
+            <ul class="controls">
+                <li class="row from">
+                    <div class="icons">
+                        <i id="from" class="fas fa-volume-up"></i>
+                        <i id="from" class="fas fa-copy"></i>
+                    </div>
+                    <select>
+                        <option value="en-GB" >English</option>
+                       <!-- added using js -->
+                    </select>
+
+                </li>
+                <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+                <li class="row to">
+                    <div class="icons">
+                        <i id="to" class="fas fa-volume-up"></i>
+                        <i id="to" class="fas fa-copy"></i>
+                    </div>
+                    <select>
+                        <option value="hi-IN" >Hindi</option>
+                          <!-- added using js -->
+                    </select>
+
+                </li>
+
+            </ul>
+
+        </div>
+        <button>Translate Text</button>
+    </div>
+<script src="language.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
